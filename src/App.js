@@ -1,26 +1,17 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import karl from './karl.png';
 
 
 import './App.css';
 
 function App() {
+
   return (
     <div className="space-bg">
       <header className="App-header">
-
-      
-          <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React scrub
-        </a>
+          {/*<img src={logo} className="App-logo" alt="logo" />*/}
+          <img src ={karl} className="App-logo" alt="logo" />
+            <h1>I don't want to be around anymore.</h1>
         </header>
     </div>
   );

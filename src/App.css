@@ -37,7 +37,6 @@
   }
 }
 
-
 .space-bg {
   background-image: url('./space.jpg');
   background-size: "cover";
@@ -45,4 +44,8 @@
   /* margin-top: -70px; */
   font-size:50px;
   background-repeat:no-repeat; 
+}
+
+.karl {
+  background-image: url('./karl.png');
 }
