@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/over-react/static/css/main.1374b672.css",
-    "main.js": "/over-react/static/js/main.65dd243e.js",
+    "main.css": "/over-react/static/css/main.f119d0d5.css",
+    "main.js": "/over-react/static/js/main.03d17109.js",
     "static/js/787.c01c5590.chunk.js": "/over-react/static/js/787.c01c5590.chunk.js",
     "static/media/space.jpg": "/over-react/static/media/space.c3bda62c510d638d811e.jpg",
     "static/media/karl.png": "/over-react/static/media/karl.e08311685bd9fef47732.png",
     "index.html": "/over-react/index.html",
-    "main.1374b672.css.map": "/over-react/static/css/main.1374b672.css.map",
-    "main.65dd243e.js.map": "/over-react/static/js/main.65dd243e.js.map",
+    "main.f119d0d5.css.map": "/over-react/static/css/main.f119d0d5.css.map",
+    "main.03d17109.js.map": "/over-react/static/js/main.03d17109.js.map",
     "787.c01c5590.chunk.js.map": "/over-react/static/js/787.c01c5590.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1374b672.css",
-    "static/js/main.65dd243e.js"
+    "static/css/main.f119d0d5.css",
+    "static/js/main.03d17109.js"
   ]
 }
