@@ -9,7 +9,8 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 8s linear;
+    /*animation: 3s linear 1s infinite running slidein;*/
   }
 }
 
@@ -46,6 +47,57 @@
   background-repeat:no-repeat; 
 }
 
-.karl {
-  background-image: url('./karl.png');
+.karl-container {
+  /*background-image: url('./karl.png');*/
+  order: 2;
 }
+
+.karl {
+  height: 60vmin;
+  pointer-events: none;
+  order: 2;
+}
+
+/* SHADOW/GLOW TRANSITIONS */
+/* Glow */
+#hvr-glow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+#hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .karl {
+    /*animation: karl-spin infinite 2s linear;*/
+    animation: 3s linear 1s infinite alternate karl-spin;
+    /*animation: 3s linear 1s infinite running slidein;*/
+  }
+}
+
+@keyframes karl-spin {
+  from {
+    transform: rotate(-6deg);
+  }
+  to {
+    transform: rotate(6deg);
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.quote {
+  font-size: h3;
+  order: 1;
+}
+

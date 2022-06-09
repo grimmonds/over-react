@@ -1,0 +1,43 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: lavender;
+    padding: 1vh;
+}
+
+.quote-container {
+    display:inline;
+}
+
+.quote {
+    font-style: normal;
+}
+
+.btn-container {
+    background-color: khaki;
+    grid-column: 3 / 3;
+    grid-row: 1;
+}
+
+.btn {
+    display: inline-block;
+	font-weight: 400;
+	color: #212529;
+	text-align: center;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	color: rgb(0, 0, 0);
+	background-color: lightcoral;
+}
+
+.btn:active{
+    background-color: rgb(247, 147, 147);
+}
+
+.btn:hover{
+    border-radius: 0.5rem;
+    border-color: white;
+}
